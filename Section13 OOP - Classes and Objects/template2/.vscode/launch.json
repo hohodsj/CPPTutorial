@@ -1,0 +1,27 @@
+{
+    "configurations": [
+      {
+        "name": "C/C++: clang++ build and debug active file",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "args": [
+            "-Wall",
+            "-std=c++17",
+            "-I",
+            "${fileDirname}",
+            "-g",
+            "${fileDirname}/*.cpp",
+            "-o",
+            "${workspaceFolder}/out"
+        ],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "lldb",
+        "preLaunchTask": "some tasks"
+      }
+    ],
+    "version": "2.0.0"
+  }

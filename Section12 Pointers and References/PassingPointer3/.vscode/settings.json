@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.ejs": "html",
+        "*.html": "html",
+        "vector": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.default.cppStandard": "c++17"
+}
